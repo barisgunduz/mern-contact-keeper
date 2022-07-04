@@ -1,3 +1,4 @@
 {
-    "mongoURI": "mongodb+srv://barisgunduz:BG_monoceros17@contactkeeper.syl0trb.mongodb.net/?retryWrites=true&w=majority"
+    "mongoURI": "mongodb+srv://barisgunduz:BG_monoceros17@contactkeeper.syl0trb.mongodb.net/?retryWrites=true&w=majority",
+    "jwtSecret": "secret"
 }
