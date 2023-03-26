@@ -83,10 +83,12 @@ const AuthState = (props) => {
 				payload: err.response.data.msg,
 			});
 		}
-	}
+	};
 
 	// Logout User
-	const logout = () => console.log("logout");
+	const logout = () => {
+		dispatch({ type: LOGOUT });
+	};
 
 	// Clear Errors
 	const clearErrors = () => dispatch({ type: CLEAR_ERRORS });
